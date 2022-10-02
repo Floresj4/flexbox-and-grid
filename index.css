@@ -1,3 +1,14 @@
-.container {
+@import url('./node_modules/@fortawesome/font-awesome/css/fontawesome.min.css');
+@import url('./node_modules/@fortawesome/fontawesome-free/css/fontawesome.css" rel="stylesheet');
+@import url('./node_modules/@fortawesome/fontawesome-free/css/brands.css" rel="stylesheet');
+@import url('./node_modules/@fortawesome/fontawesome-free/css/solid.css" rel="stylesheet');
+
+.main-container {
     display: flex;
+}
+
+.left-navigation,
+.content-body {
+    display: flex;
+    justify-content: flex-start;
 }

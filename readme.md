@@ -5,3 +5,4 @@ Working through the Flexible Box (Flexbox) and Grid container layout and organiz
 ##### References
 1. https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 2. https://css-tricks.com/snippets/css/complete-guide-grid/#aa-introduction
+3. https://fontawesome.com/docs/web/setup/packages
