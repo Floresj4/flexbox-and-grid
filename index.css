@@ -49,6 +49,7 @@ body {
 
 .content-body {
     display: flex;          /* is this acceptable multiple times? */
+    flex-wrap: wrap;
     flex-basis: 85%;
     flex-direction: row;
 
