@@ -3,30 +3,48 @@
 @import url('./node_modules/@fortawesome/fontawesome-free/css/brands.css');
 @import url('./node_modules/@fortawesome/fontawesome-free/css/solid.css');
 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .main-container {
     display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+    /* align-content: flex-start; */
 }
 
-.left-navigation,
+.navigation,
 .content-body {
-    display: flex;
-    justify-content: flex-start;
+    align-items: flex-start;
+
+    /* border: 1px solid #ccc; */
 }
 
-.left-navigation {
+.navigation {
     flex-basis: 20%;
     flex-direction: column;
 
-    border: 1px solid #f8c;
+}
+.nav-item {
+    flex: 1;
+
+    background-color: #ccc;
+    border: 1px solid #aaa;
+    padding: 10px;
+    margin:0 10px 0 0;
+
 }
 
 .content-body {
-    border: 1px solid #ccc;
+    display: flex;          /* is this acceptable multiple times? */
+    flex-basis: 80%;
+    flex-direction: row;
+
+    /* border: 1px solid #ccc; */
+}
+.content-container {
+    flex: 1;
 }
 
-.nav-item {
-    flex: 1;
-    border: 1px solid #cf8;
-    background-color: #8a2be2;
-    padding: 15px;
-}
