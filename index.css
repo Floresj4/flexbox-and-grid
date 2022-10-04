@@ -5,22 +5,28 @@
 
 .main-container {
     display: flex;
-    background-color:#777;
 }
 
 .left-navigation,
 .content-body {
     display: flex;
     justify-content: flex-start;
-
-    background-color: #ddd;
 }
 
 .left-navigation {
+    flex-basis: 20%;
     flex-direction: column;
+
+    border: 1px solid #f8c;
+}
+
+.content-body {
+    border: 1px solid #ccc;
 }
 
 .nav-item {
-    border: 1px solid #000;
+    flex: 1;
+    border: 1px solid #cf8;
+    background-color: #8a2be2;
     padding: 15px;
 }
