@@ -35,6 +35,11 @@ body {
     border-bottom: 1px solic #bbb;
     padding: 10px;
     margin:0 10px 10px 0;
+    cursor: pointer;
+}
+
+.nav-item:hover {
+    background-color: #eee;
 }
 
 .nav-item-title {
